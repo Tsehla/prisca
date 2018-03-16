@@ -1,12 +1,12 @@
 //reusables
 // bakground image
 function background_image(_image, id){
-    document.getElementById(id).style.backgroundImage= "url('/images/"+_image+".png')";
+    document.getElementById(id).style.backgroundImage= "url('images/"+_image+".png')";
     
 }
 
 //slide
-var start=1;
+var start=2;
 function slide(){
    background_image(start, "header");
     if(start==3){
